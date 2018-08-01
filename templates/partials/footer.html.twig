@@ -1,0 +1,41 @@
+<footer style="overflow: hidden;">
+    <div class="container">
+        {#<div class="row">
+            <div class="six columns info">
+                <div class="footer-logo">
+                    <a href="{{ base_url_absolute }}">
+                        <img src="{{ theme_url }}/images/logo.png" alt="" style="max-width: 120px;" />
+                    </a>
+                </div>
+                <p>
+                    {{ site.footer.text }}
+                </p>
+            </div>
+        </div>#}        
+        <div class="row">
+            <div class="footer-riskwarning">
+                <p><strong>{{'FOOTER.RISK_WARNING_TITLE'|t}}</strong></p>
+                {{'FOOTER.RISK_WARNING_TEXT'|t}}
+                </br>
+                <p><strong>{{'FOOTER.DISCLAIMER_TITLE'|t}}</strong></p>
+                {{'FOOTER.DISCLAIMER_TEXT'|t}}
+            </div>
+            <p>&nbsp;</p>
+            <p class="copyright">{{ 'FOOTER.TRADEMARK'|t }}  |  <a href="{{'FOOTER.TERMS_CONDITIONS_URL'|t}}">{{'FOOTER.TERMS_CONDITIONS_TEXT'|t}}</a></p>
+            <p>
+            <div id="go-top">
+                <p>&nbsp;</p>
+                <a class="smoothscroll" title="Back to Top" href="#hero"><i class="icon-up-open"></i></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="md-col-12">
+                <ul class="footer-social">
+                    {% for item in site.social %}
+                    <li><a href="{{ item.url }}"><i class="fa fa-{{ item.icon }} fa-2x"></i></a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
