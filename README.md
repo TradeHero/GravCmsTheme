@@ -16,6 +16,9 @@ ftp://site.tradehero.mobi (running under Dreamhost managed domain -- login to dr
 
 3. Once inside, Move to the following folder location from root
  /grav.tradehero.mobi/user/themes/vjtest/
+ 
+ ## i.e. ftp://site.tradehero.mobi/grav.tradehero.mobi/user/themes/vjtest/
+
 
 4. Manually move the files to the corresponding replacement from your git work folder.
 
