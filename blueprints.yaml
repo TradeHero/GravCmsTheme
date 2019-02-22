@@ -5,11 +5,11 @@ icon: rebel
 author:
   name: Viraj
   email: viraj@tradehero.mobi
-homepage: https://github.com/viraj/grav-theme-vjtest
+homepage: https://github.com/TradeHero/GravCmsTheme
 demo: http://demo.yoursite.com
 keywords: grav, theme, etc
-bugs: https://github.com/viraj/grav-theme-vjtest/issues
-readme: https://github.com/viraj/grav-theme-vjtest/blob/develop/README.md
+bugs: https://github.com/TradeHero/GravCmsTheme/issues
+readme: https://github.com/TradeHero/GravCmsTheme/README.md
 license: MIT
 
 form:
